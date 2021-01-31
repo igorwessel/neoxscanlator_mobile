@@ -88,20 +88,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0-nullsafety.1"
-  photo_view:
-    dependency: "direct main"
-    description:
-      name: photo_view
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.10.3"
-  pinch_zoom_image_updated:
-    dependency: "direct main"
-    description:
-      name: pinch_zoom_image_updated
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.2.6"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -165,4 +151,3 @@ packages:
     version: "2.1.0-nullsafety.3"
 sdks:
   dart: ">=2.10.0-110 <2.11.0"
-  flutter: ">=1.6.0 <2.0.0"

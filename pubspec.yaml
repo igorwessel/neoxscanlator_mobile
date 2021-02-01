@@ -24,6 +24,10 @@ dependencies:
   flutter:
     sdk: flutter
 
+  keyboard_avoider: ^0.1.2
+  smooth_star_rating: ^1.1.1
+  cached_network_image: ^2.5.0
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
@@ -45,7 +49,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/logo.png
-  #   - images/a_dot_ham.jpeg
+    - assets/images/cape_example.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -61,32 +65,32 @@ flutter:
   fonts:
     - family: Poppins
       fonts:
-        - asset: assets/fonts/roboto/Poppins-Black.ttf
+        - asset: assets/fonts/Poppins-Black.ttf
           weight: 900
-        - asset: assets/fonts/roboto/Poppins-BlackItalic.ttf
+        - asset: assets/fonts/Poppins-BlackItalic.ttf
           style: italic
           weight: 900
-        - asset: assets/fonts/roboto/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
           weight: 700
-        - asset: assets/fonts/roboto/Poppins-BoldItalic.ttf
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
           style: italic
           weight: 700
-        - asset: assets/fonts/roboto/Poppins-Italic.ttf
+        - asset: assets/fonts/Poppins-Italic.ttf
           style: italic
-        - asset: assets/fonts/roboto/Poppins-Light.ttf
+        - asset: assets/fonts/Poppins-Light.ttf
           weight: 300
-        - asset: assets/fonts/roboto/Poppins-LightItalic.ttf
+        - asset: assets/fonts/Poppins-LightItalic.ttf
           style: italic
           weight: 300
-        - asset: assets/fonts/roboto/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
           weight: 500
-        - asset: assets/fonts/roboto/Poppins-MediumItalic.ttf
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
           style: italic
           weight: 500
-        - asset: assets/fonts/roboto/Poppins-Regular.ttf
-        - asset: assets/fonts/roboto/Poppins-Thin.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Thin.ttf
           weight: 100
-        - asset: assets/fonts/roboto/Poppins-ThinItalic.ttf
+        - asset: assets/fonts/Poppins-ThinItalic.ttf
           style: italic
           weight: 100
   #
